@@ -25,13 +25,22 @@ class CreateEventController: UIViewController {
   // public for getting
   public private(set) var eventState = EventState.newEvent
   
-  override func viewDidLoad() {
+  override func viewDidLoad() { // called once on initial load of view controller
     super.viewDidLoad()
     
     // set the view controller as the delegate for the text field
     eventNameTextField.delegate = self
         
     updateUI()
+  }
+  
+  override func viewWillAppear(_ animated: Bool) { // every time vc is on screen
+    super.viewWillAppear(true)
+  }
+  
+  override func viewWillDisappear(_ animated: Bool) { // every time you exit the vc
+    super.viewWillDisappear(true)
+    // TODO: call save function to persist data
   }
    
   private func updateUI() {
