@@ -28,13 +28,6 @@ class ScheduleListController: UIViewController {
     }
   }
   
-  lazy var dateFormatter:  DateFormatter = {
-    let formatter = DateFormatter()
-    formatter.dateFormat = "EEEE, MMM d, yyyy, hh:mm a"
-    formatter.timeZone = .current
-    return formatter
-  }()
-  
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -139,7 +132,7 @@ extension ScheduleListController: UITableViewDataSource {
     let cell = tableView.dequeueReusableCell(withIdentifier: "eventCell", for: indexPath)
     let event = events[indexPath.row]
     cell.textLabel?.text = event.name
-    cell.detailTextLabel?.text = dateFormatter.string(from: event.date)//event.date.description
+    cell.detailTextLabel?.text = event.date.formattedDateString()
     return cell
   }
   

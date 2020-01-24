@@ -19,6 +19,7 @@
 		57989B6923D9C02200BC195A /* FileManager+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57989B6823D9C02200BC195A /* FileManager+Extensions.swift */; };
 		57989B6B23D9C07100BC195A /* PersistenceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57989B6A23D9C07100BC195A /* PersistenceHelper.swift */; };
 		57E6C49A23DB596500B907DE /* SchedulesTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E6C49923DB596500B907DE /* SchedulesTabController.swift */; };
+		57E6C49C23DBACD500B907DE /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E6C49B23DBACD500B907DE /* Date+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		57989B6823D9C02200BC195A /* FileManager+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extensions.swift"; sourceTree = "<group>"; };
 		57989B6A23D9C07100BC195A /* PersistenceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceHelper.swift; sourceTree = "<group>"; };
 		57E6C49923DB596500B907DE /* SchedulesTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulesTabController.swift; sourceTree = "<group>"; };
+		57E6C49B23DBACD500B907DE /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				5712587E2385A80D00805579 /* AppDelegate.swift */,
 				571258802385A80D00805579 /* SceneDelegate.swift */,
+				57E6C49B23DBACD500B907DE /* Date+Extensions.swift */,
 				571258842385A80D00805579 /* Main.storyboard */,
 				571258872385A81000805579 /* Assets.xcassets */,
 				571258892385A81000805579 /* LaunchScreen.storyboard */,
@@ -195,6 +198,7 @@
 				571258932385AD0100805579 /* CreateEventController.swift in Sources */,
 				571258832385A80D00805579 /* ScheduleListController.swift in Sources */,
 				5712587F2385A80D00805579 /* AppDelegate.swift in Sources */,
+				57E6C49C23DBACD500B907DE /* Date+Extensions.swift in Sources */,
 				571258812385A80D00805579 /* SceneDelegate.swift in Sources */,
 				57989B6923D9C02200BC195A /* FileManager+Extensions.swift in Sources */,
 				571258952385B4BC00805579 /* Event.swift in Sources */,

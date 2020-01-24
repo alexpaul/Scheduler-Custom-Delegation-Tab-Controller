@@ -46,7 +46,7 @@ extension CompletedScheduleController: UITableViewDataSource {
     let cell = tableView.dequeueReusableCell(withIdentifier: "eventCell", for: indexPath)
     let event = completedEvents[indexPath.row]
     cell.textLabel?.text = event.name
-    cell.detailTextLabel?.text = event.date.description
+    cell.detailTextLabel?.text = event.date.formattedDateString()
     return cell
   }
   
