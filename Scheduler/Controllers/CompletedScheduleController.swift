@@ -16,6 +16,8 @@ class CompletedScheduleController: UIViewController {
     }
   }
   
+  public var dataPersistence: DataPersistence<Event>!
+  
   @IBOutlet weak var tableView: UITableView!
   
   override func viewDidLoad() {
